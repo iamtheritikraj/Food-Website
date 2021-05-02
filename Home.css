@@ -141,6 +141,7 @@
             padding: 29px 176px;
             font-size: 1.4rem;
             border: 2px solid grey;
+            border-radius:10px;
         }
         
         .contact input,
