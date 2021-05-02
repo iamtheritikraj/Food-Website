@@ -2,43 +2,76 @@
     flex-direction: column;
 }
 
-#home {
-    height: 547px;
-    padding: 3px 68px;
+#navbar img {
+    height: 50px;
+    width: 50px;
 }
 
-#home::before {
-    height: 400px;
+#navbar ul li a {
+    padding: 1px 0px;
+    font-size: 1rem;
+    border-radius: 1px;
+}
+
+#home {
+    padding: 24px 2px;
+    text-align: center;
 }
 
 #home p {
-    font-size: 15px;
+    margin: 4px;
 }
 
-#home .h-primary {
-    font-size: 26px;
-}
-
-.btn {
-    padding: 6px 15px;
-    font-size: 15px;
-    border-radius: 10px;
+#home::before {
+    height: 1320px;
 }
 
 .service-container {
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .clients {
     flex-wrap: wrap;
-    height: 314px;
 }
 
-.clients img {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100px;
-    width: 100px;
+.reachus {
+    flex-direction: column;
+}
+
+.address,
+.contact {
     margin: 5px;
-    cursor: pointer;
+    padding: 28px 62px;
+    font-size: 1.2rem;
+}
+
+.contact input,
+.contact textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    margin: rem;
+    border-radius: 3px;
+    font-size: 1.1rem;
+}
+
+.h-primary {
+    font-size: 1.8rem;
+}
+
+.h-secondary {
+    font-size: 1.3rem;
+}
+
+.para-text {
+    font-size: 1rem;
+}
+
+.btn {
+    padding: 4px;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
 }
