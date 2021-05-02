@@ -1,0 +1,44 @@
+#navbar {
+    flex-direction: column;
+}
+
+#home {
+    height: 547px;
+    padding: 3px 68px;
+}
+
+#home::before {
+    height: 400px;
+}
+
+#home p {
+    font-size: 15px;
+}
+
+#home .h-primary {
+    font-size: 26px;
+}
+
+.btn {
+    padding: 6px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.service-container {
+    flex-direction: column;
+}
+
+.clients {
+    flex-wrap: wrap;
+    height: 314px;
+}
+
+.clients img {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+}
